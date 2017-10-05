@@ -217,4 +217,5 @@ def winning_team
       temp_score += stats[:points]
     end
   end
+  return temp_score
 end
