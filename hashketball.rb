@@ -208,3 +208,13 @@ end
 end
 
 most_points_scored
+
+def winning_team
+
+  game_hash.each do |location, details|
+    details[:players].each do |name, stats|
+      temp_score = 0
+      temp_score += stats[:points]
+    end
+  end
+end
